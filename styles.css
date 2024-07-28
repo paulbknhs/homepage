@@ -1,0 +1,61 @@
+@font-face {
+    font-family: "MinecraftiaRegular";
+    src: url("assets/fonts/Minecraftia-Regular.ttf") format("truetype");
+}
+
+.body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url("assets/images/background_blur.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #ffffff;
+}
+
+.text-sm {
+    font-size: 0.875rem;
+    color: #d1d5db;
+}
+
+.minecraft-btn {
+    font-family: "MinecraftiaRegular";
+    border-color: #aaa #565656 #565656 #aaa;
+    text-shadow: 3px 3px #4c4c4c;
+    outline: 3px solid #060606;
+    width: 660px;
+    height: 50px;
+    background-image: url("assets/images/bg_button.png");
+    color: #fcfcfc;
+    font-size: 1.25rem;
+    padding: 0.5rem;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+    margin: 8px;
+}
+
+.minecraft-btn:hover {
+    border-color: #bdc6ff #59639a #59639a #bdc6ff;
+    background-image: url("assets/images/bg_button-hover.png");
+}
+
+.minecraft-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.button-row {
+    margin: 24px 0;
+    display: flex;
+    justify-content: space-between;
+    width: 660px;
+}
+
+.button-row .minecraft-btn {
+    width: 320px;
+}
